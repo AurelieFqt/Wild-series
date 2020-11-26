@@ -1,10 +1,5 @@
-:root {
-    --primary : #ffffff;
-    --secondary : rgb(106, 172, 248);
-}
+$theme-colors: (
+    "primary": darken(#428bca, 20%),
+);
 
-body {
-    background-color: var(--primary);
-}
-$primary: darken(#428bca, 20%);
 @import "~bootstrap/scss/bootstrap";
