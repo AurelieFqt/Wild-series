@@ -9,8 +9,10 @@
         {% endblock %}
     </head>
     <body>
-        {% block header%}
+        {% block header %}
+            {% include "program/_navbar.html.twig" %}
         {% endblock %}
+        
         {% block body %}
         {% endblock %}
         {% block javascripts %}

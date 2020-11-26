@@ -6,23 +6,5 @@
 body {
     background-color: var(--primary);
 }
-
-li a{
-    text-decoration: none;
-    color: black;
-    justify-content: space-between;
-}
-
-li{
-    list-style-type: none;
-    float: left;
-    font-size: 2em;
-    justify-content: space-between;
-    margin-right: 2em;
-}
-
-nav{
- display: flex;
- justify-content: center;
- background-color: var(--secondary)
-}
+$primary: darken(#428bca, 20%);
+@import "~bootstrap/scss/bootstrap";

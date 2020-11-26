@@ -16,13 +16,4 @@ class ProgramController extends AbstractController
         return $this->render('program/index.html.twig', ['website' => 'Wild Series',
         ]);
     }
-
-    /**
-     * @Route("/programs/", name="program_list")
-     */
-    public function list(): Response
-    {
-        return $this->render('program/list.html.twig', ['website' => 'Wild Series',
-        ]);
-    }
 }
