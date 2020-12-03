@@ -1,0 +1,16 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Série #{{ program.id }}{% endblock %}
+
+{% block body %}
+
+   var_dump($programs);
+    {% else %}
+        no program to display.
+    {% endfor %}
+
+    <a href="{{ path('app_index') }}">
+        Home
+    </a>
+
+{% endblock %}
