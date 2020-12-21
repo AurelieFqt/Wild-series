@@ -10,10 +10,10 @@
             <a href="{{ path('category_show', { categoryName: category.name }) }}">Voir la categorie</a>
         </div>
     {% else %}
-        no category to display.
+        Aucune catégorie à afficher !
     {% endfor %}
 
     <a href="{{ path('app_index') }}">
-        Home
+        Acceuil
     </a>
 {% endblock %}
