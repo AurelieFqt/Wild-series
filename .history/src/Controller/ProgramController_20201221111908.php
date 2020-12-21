@@ -31,7 +31,7 @@ class ProgramController extends AbstractController
     }
 
     /**
-     * Getting a progrma by id
+     * Getting a program by id
      * 
      * @Route("/{id<\d+>}", methods={"GET"}, name="show")
      * @return Response
